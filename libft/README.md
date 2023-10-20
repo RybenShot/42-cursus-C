@@ -1,7 +1,7 @@
 # <b>Libft</b>
  
-> _My first project at 42 Málaga_
+> _El primer proyecto en 42 Malaga_
 
 <br>
 
-## *This project consists of coding basic C functions, which are then compiled into a library for use in other projects throughout the Cursus.*
+## *Este proyecto consiste en programar funciones básicas en C, las cuales luego se compilan en una biblioteca para su uso en otros proyectos a lo largo del Cursus*
