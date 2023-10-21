@@ -1,15 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 15:47:27 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 10:34:02 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-#include <string.h>
+/* Copia los size primeros valores de src a dest */
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t size)
 {
@@ -30,15 +20,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t size)
 	}
 	return (dest);
 }
-/*
-int main()
-{
-    char letters[] = "########";
-    char copyletters[] = "********";
-
-    ft_memcpy(letters, copyletters, 5);
-
-    return (0);
-}
- Copia los primeros "size" de valores de "srt" a "dest"
-*/

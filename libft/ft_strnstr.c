@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strnstr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/04 13:02:11 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 11:34:17 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Busca la primera coincidencia de la subcadena needle en la cadena haystack */
 #include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
@@ -36,15 +25,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-/*int main ()
-{
-    char letters[] = "pula";
-    char letters2[] = "hoya";
-//                          haystack  needle
-    printf("%s", ft_strnstr(letters, letters2, 3));
-    return(0);
-}
-
- busca la primera coincidencia de la subcadena(needle) en la cadena 
- "haystack" hasta los primeros (size) de valores;
-*/

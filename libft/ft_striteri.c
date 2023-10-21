@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_striteri.c                                      :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/19 15:27:38 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/19 15:27:38 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Aplica la función "f" en cada caracter de la cadena "s", OJO! esta si modifica el original. */
 #include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
@@ -27,10 +16,6 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	s[i] = '\0';
 }
 /*
-Aplica la funcion "f" en cada caracter de la cadena "s", OJO!, 
-en esta funcion, la tring de origen SI CAMBIA
-	RETORNA No retorna NADA, simplemente cierra con el nulo y a tomar por saco
-
 Diferencia entre "strmapi" y "striteri".
 	- En strmapi, aplica lo que sea de la funcion a cada caracter 
 	de la cadena y RETORNA el resultado en una String nueva de memoria Dinamica

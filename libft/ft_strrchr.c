@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 16:12:27 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 11:07:24 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Busca la última coincidencia del caracter c en la cadena str */
 #include "libft.h"
 
 char	*ft_strrchr(const char *str, int c)
@@ -24,15 +13,3 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return (0);
 }
-/*int main ()
-{
-    char letters[] = "hola mundo";
-
-    printf("%s", ft_strrchr(letters, 'a'));
-    return(0);
-}
-// busca la ULTIMA coincidencia del caracter "c" en la cadena "str"
-    RETORNA
-        si lo encuentra, la posicion
-        sino NULL
-*/

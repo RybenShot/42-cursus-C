@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/12 12:06:26 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 13:15:06 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Crea y copia un array de Strings al separar la string "s" en substrings con el caracter "c" como delimitador */
 #include "libft.h"
 
 static size_t	ft_wordcounter(char const *str, char c)
@@ -95,15 +84,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (ft_make_cells(str, (char *)s, c));
 }
-/* 
-int main ()
-{
-  char word[] = "Hola-mundo-en-c";    // 3
-  char delimitador = 45;              // -
-
-  printf("%s", ft_split(word, delimitador));
-  return(0);
-}
-asigna memoria dinamica a un array de strings al separar la strng "s" 
-en substrings con el caracter "c" como delimitador 
-*/

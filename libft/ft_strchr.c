@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 15:54:39 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 11:04:02 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Busca la primera coincidencia del caracter c en la cadena str */
 #include "libft.h"
 
 char	*ft_strchr(const char *str, int c)
@@ -23,13 +12,3 @@ char	*ft_strchr(const char *str, int c)
 	}
 	return ((char *)str);
 }
-/*int main ()
-{
-    char letters[] = "hola mundo";
-
-    printf("%s", ft_strchr(letters, 'a'));
-    return(0);
-}
-busca la primera aparicion del caracter "c" en la cadena "str"
-    RETORNA a partir desde la aparicion del caracter que buscamos
-*/

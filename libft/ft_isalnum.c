@@ -1,14 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 15:16:27 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 10:19:07 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/* Comprueba si el caracter c es alfabetico o numerico */
+#include "libft.h"
 
 int	ft_isalnum( int c)
 {
@@ -17,16 +8,3 @@ int	ft_isalnum( int c)
 	else
 		return (0);
 }
-/*int main ()
-{
-    char letter = 'g';
-    //int number = 4;
-
-    printf("%d", ft_isalnum(letter));
-    return (0);
-}*/
-/*
-	Comprobamos si lo que miramos es alfabeto o numero
-    - True = 1
-    - False = 0
-*/

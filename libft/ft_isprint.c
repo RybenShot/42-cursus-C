@@ -1,14 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_isprint.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 15:23:06 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 10:26:02 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/* Comprueba si el caracter c es imprimible */
+#include "libft.h"
 
 int	ft_isprint(int c)
 {
@@ -17,16 +8,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-/*int main ()
-{
-    char letter = 'g';
-    //int number = 4;
-
-    printf("%d", ft_isalnum(letter));
-    return (0);
-}*/
-/*
-Comprobamos si el caracter esta entre la tabla de AScii de PRINTABLE
-    - True = 1
-    - False = 0
-*/

@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 19:52:02 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/20 08:22:31 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Crea y copia en memoria dinamica una nueva string a partir de otra original con un \0 al final */
 #include "libft.h"
 
 char	*ft_strdup(const char *str)
@@ -31,14 +20,3 @@ char	*ft_strdup(const char *str)
 	copystr[i] = '\0';
 	return (copystr);
 }
-/*
-int main ()
-{
-    char word[] = "hello!";
-    printf("s", ft_strdup(word));
-    return(0);
-}
-
-COPIA Y CREACION DE UNA MEMORIA DINAMICA
-    hace una copia dinamica de la cadena "str"
-*/

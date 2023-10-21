@@ -6,7 +6,7 @@
 
 ## *Este proyecto consiste en programar funciones básicas en C, las cuales luego se compilan en una biblioteca para su uso en otros proyectos a lo largo del Cursus*
 
-# <b>FUNCIONES</b>
+# <b>FUNCIONES BASICAS</b>
  Estas funciones son una imitacion de las funciones originales de C.
 
 |  Función | Descripción |
@@ -35,3 +35,20 @@
 |||
 |[ft_calloc](./ft_calloc.c)   |asigna **Mermoria Dinamica** a una string empezada por valores **nulos**          |
 |[ft_strdup](./ft_strdup.c)   |asigna **MD** a una nueva string a partir de otra original `str`.                 |
+
+
+# <b>FUNCIONES ADICIONALES</b>
+ Estas funciones o no son de la librería *libc, o lo son pero de una forma distinta.s
+
+|  Función | Descripción |
+| -------- | ----------- |
+|[ft_substr](./ft_substr.c)         |asigna MD a una string creada a partir del **indice**`start` de `s` con la longitud`len`                        |
+|[ft_strjoin](./ft_srtjoin.c)       |asigna MD a una string creada a partir de la **concatenación** de `s1` cocn `s2`                                |
+|[ft_strtrim](./ft_strtrim.c)       |asigna MD a una string que contiene `str` **sin** los caracteres `set`                                          |
+|[ft_split](./ft_split.c)           |asigna MD a un **array de strings** al separar la string `s` en substrings con el caracter `c` como delimitador |
+|[ft_itoa](./ft_itoa.c)             |convierte un `n` **int** a una string MD                                                                        |
+|[ft_striteri](./ft_striteri.c)     |aplica la función `f` en cada caracter de la cadena `s`                                                         |
+|[ft_putchar_fd](./ft_putchar_fd.c) |imprime el caracter `c` al `fd`                                                                                 |
+|[ft_putstr_fd](./ft_putstr_fd.c)   |imprime la string `s` al `fd`                                                                                   |
+|[ft_putendl_fd](./ft_putendl_fd.c) |imprime `s` al `fd` con un **salto de linea** al final                                                          |
+|[ft_putnbr_fd](./ft_putnbr_fd.c)   |imprime el numero `n` al `fd`                                                                                   |

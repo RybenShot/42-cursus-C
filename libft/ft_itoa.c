@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/12 13:06:18 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 13:12:24 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Crea y convierte en Memoria Dinamica un numero entero "n" en una cadena de caracteres */
 #include "libft.h"
 
 static int	ft_numberlen(long n)
@@ -63,16 +52,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-/*
-int main ()
-{
-  char number = -100;
-
-  printf("%s", ft_itoa(number));
-  return(0);
-}
-Creamos tres variables: 
-  una para conocer la dimensión del entero, 
-  otra para modificarla a tipo 'long' 
-  y una reserva de memoria.
-*/

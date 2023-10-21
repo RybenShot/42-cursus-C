@@ -1,14 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 15:14:24 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 10:23:23 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/* Comprueba si el caracter c es numerico */
+#include "libft.h"
 
 int	ft_digit(int arg)
 {
@@ -18,14 +9,3 @@ int	ft_digit(int arg)
 	else
 		return (0);
 }
-/*int main ()
-{
-    char number = '6';
-
-    ft_digit(number);
-    return (0);
-}
- chequea si lo que pasamos es un numero
-    - True = 1
-    - False = 0
-*/

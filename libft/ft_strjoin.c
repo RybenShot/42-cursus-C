@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/12 11:56:39 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/12 11:59:15 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Crea y concatena 2 strings en una nueva string en Memoria dinamica */
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
@@ -30,14 +19,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i] = 0;
 	return (str);
 }
-/*
-int main ()
-{
-  char word[] = "hola ";
-  char word2[] = "caracola!";
-
-  printf("%s", ft_strjoin(word, word2));
-  return(0);
-}
-Reserva y devuelve una NUEVA string formada por la concaTENACION DE 's1' y 's2'
-*/

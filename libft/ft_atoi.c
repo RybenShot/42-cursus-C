@@ -1,15 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/03 17:03:42 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/20 07:57:13 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/* Convierte str en un int */
 #include "libft.h"
 
 int	ft_atoi(const char *str)
@@ -35,10 +24,3 @@ int	ft_atoi(const char *str)
 	}
 	return (atoi * sign);
 }
-/*int main ()
-{
-    char numbers[] = "42_3456";
-    printf("d", ft_atoi(numbers));
-    return(0);
-}
-*/

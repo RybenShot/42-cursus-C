@@ -1,14 +1,5 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/11 18:50:34 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/19 15:33:02 by sejimene         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/* Comprueba si el caracter c es alfabetico */
+#include "libft.h"
 
 int	ft_isalpha(int c)
 {
@@ -17,14 +8,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-/*int main ()
-{
-    int letter = 'a';
-
-    ft_isalpha(letter);
-    return (0);
-}
- chequea si lo que pasamos es una letra
-    - True = 1
-    - False = 0
-    */
