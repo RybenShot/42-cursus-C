@@ -2,7 +2,9 @@
   Aqui tendras todos los proyectos que ire completando a través del curso, con su codigo y comentarios comentados
 
 # 📐 Proyectos en produccion
-  - [**libft**](./libft). Creacion de funciones basicas de C para entender desde lo mas abajo como funcionan los programas y asi poder manejar en el futuro con mas precision mis propios futuros programas.
+|  Función | Descripción |
+| -------- | ----------- |
+|[**libft**](./libft) | Creacion de funciones basicas de C para entender desde lo mas abajo como funcionan los programas|
 
 # ⌛ Futuros proyectos
   - Born2Beroot. Creacion de una maquina virtual

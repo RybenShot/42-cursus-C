@@ -7,9 +7,9 @@
 ## *Este proyecto consiste en programar funciones básicas en C, las cuales luego se compilan en una biblioteca para su uso en otros proyectos a lo largo del Cursus*
 
 # <b>FUNCIONES</b>
- Estas funciones son una imitacion de las funciones originales de C 
+ Estas funciones son una imitacion de las funciones originales de C.
 
-| Function | Description |
+|  Función | Descripción |
 | -------- | ----------- |
 |[ft_isalpha](./ft_isalpha.c) |comprueba si el caracter `c` es **alfabetico**                                    |
 |[ft_isdigit](./ft_isdigit.c) |comprueba si el caracter `c` es **numerico**                                      |
