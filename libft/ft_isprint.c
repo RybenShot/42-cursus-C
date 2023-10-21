@@ -6,16 +6,16 @@
 /*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 15:23:06 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/03 15:23:11 by sejimene         ###   ########.fr       */
+/*   Updated: 2023/10/12 10:26:02 by sejimene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    if (c >= 32 && c <= 126)
-        return (1);
-    else
-        return (0); 
+	if (c >= 32 && c <= 126)
+		return (1);
+	else
+		return (0);
 }
 /*int main ()
 {

@@ -1,12 +1,24 @@
-#include <libft.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/10/19 15:18:39 by sejimene          #+#    #+#             */
+/*   Updated: 2023/10/19 15:18:39 by sejimene         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void ft_putstr_fd(char *s, int fd)
+#include "libft.h"
+
+void	ft_putstr_fd(char *s, int fd)
 {
 	if (!s)
-		return (0);					// Prev de ERROR
-	write(fd, s, ft_strlen(s));		// "hola caracola"	
+		return ;
+	write(fd, s, ft_strlen(s));
 }
-
+/* 
 int main() {
 
 	char	letters[] = "hola caracola";
@@ -15,7 +27,5 @@ int main() {
 
     return 0;
 }
-
-/* 
 imprime una string en ... (fd es la salida) 
 */

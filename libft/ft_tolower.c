@@ -6,17 +6,19 @@
 /*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 15:53:00 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/03 15:53:20 by sejimene         ###   ########.fr       */
+/*   Updated: 2023/10/12 11:01:35 by sejimene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_lower(int c)
+#include "libft.h"
+
+int	ft_lower(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-    {
-        c += 32;
-    }
-    return(c);
+	if (c >= 'A' && c <= 'Z')
+	{
+		c += 32;
+	}
+	return (c);
 }
 /*int main()
 {

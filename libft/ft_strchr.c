@@ -6,20 +6,22 @@
 /*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 15:54:39 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/03 15:56:40 by sejimene         ###   ########.fr       */
+/*   Updated: 2023/10/12 11:04:02 by sejimene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strchr(const char *str, int c)
+#include "libft.h"
+
+char	*ft_strchr(const char *str, int c)
 {
-    while (*str != (char)c)
-    {
-        if (*str == '\0')
-            return(0);
-        else
-            str++;
-    }
-    return((char *)str);
+	while (*str != (char)c)
+	{
+		if (*str == '\0')
+			return (0);
+		else
+			str++;
+	}
+	return ((char *)str);
 }
 /*int main ()
 {

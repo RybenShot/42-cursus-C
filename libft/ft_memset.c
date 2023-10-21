@@ -6,25 +6,25 @@
 /*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 15:28:37 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/03 15:28:47 by sejimene         ###   ########.fr       */
+/*   Updated: 2023/10/12 10:59:13 by sejimene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-void *ft_memset(void *str, int c, size_t len)
+#include "libft.h"
+
+void	*ft_memset(void *str, int c, size_t len)
 {
-    size_t i;    
-    char *copystr;
+	size_t	i;
+	char	*copystr;
 
-    i = 0;
-    copystr = (char *)str;
-
-    while (i < len)
-    {
-        copystr[i] = c;
-        i++;
-    }
-    return (str);
+	i = 0;
+	copystr = (char *)str;
+	while (i < len)
+	{
+		copystr[i] = c;
+		i++;
+	}
+	return (str);
 }
 /*
 int main()

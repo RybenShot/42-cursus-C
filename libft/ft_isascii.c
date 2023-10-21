@@ -6,16 +6,16 @@
 /*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 15:19:41 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/03 15:22:29 by sejimene         ###   ########.fr       */
+/*   Updated: 2023/10/12 10:24:36 by sejimene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
-    if (c >= 0 && c <= 127)
-        return (1);
-    else
-        return (0);
+	if (c >= 0 && c <= 127)
+		return (1);
+	else
+		return (0);
 }
 /*
 int main ()

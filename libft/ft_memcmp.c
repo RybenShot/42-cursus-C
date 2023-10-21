@@ -6,32 +6,32 @@
 /*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 17:00:48 by sejimene          #+#    #+#             */
-/*   Updated: 2023/10/03 17:00:50 by sejimene         ###   ########.fr       */
+/*   Updated: 2023/10/20 08:12:56 by sejimene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h> 
-int ft_memcmp(const void *s1, const void *s2, size_t size)
-{
-    size_t i;
-    unsigned char *copys1;
-    unsigned char *copys2;
+#include "libft.h"
 
-    i = 0;
-    copys1 = (unsigned char *)s1;
-    copys2 = (unsigned char *)s2;
-    while(size)
-    {
-        if (copys1[i] != copys2[i] || copys1[i] == 0 || copys2[i] == 0)
-            return(copys1[i] - copys2[i]);
-        else
-        {
-            i++;
-            size--;
-        }
-    }
-    return(0);
+int	ft_memcmp(const void *s1, const void *s2, size_t size)
+{
+	size_t			i;
+	unsigned char	*copys1;
+	unsigned char	*copys2;
+
+	i = 0;
+	copys1 = (unsigned char *)s1;
+	copys2 = (unsigned char *)s2;
+	while (size)
+	{
+		if (copys1[i] != copys2[i])
+			return (copys1[i] - copys2[i]);
+		else
+		{
+			i++;
+			size--;
+		}
+	}
+	return (0);
 }
 /*int main ()
 {
