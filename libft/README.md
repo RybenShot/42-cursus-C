@@ -52,3 +52,18 @@
 |[ft_putstr_fd](./ft_putstr_fd.c)   |imprime la string `s` al `fd`                                                                                   |
 |[ft_putendl_fd](./ft_putendl_fd.c) |imprime `s` al `fd` con un **salto de linea** al final                                                          |
 |[ft_putnbr_fd](./ft_putnbr_fd.c)   |imprime el numero `n` al `fd`                                                                                   |
+
+# <b>FUNCIONES BONUS</b>
+ Estas funciones sirven para amnipular listas
+
+|  Función | Descripción |
+| -------- | ----------- |
+|[ft_lstnew](./ft_lstnew_bonus.c)               |crea un nuevo **nodo** y establece su contenido `content` y puntero siguiente `next`                 |
+|[ft_lstadd_front](./ft_lstadd_front_bonus.c)   |añade el nodo `new` al **principio** de la lista `*lst`                                              |
+|[ft_lstadd_back](./ft_lstadd_back_bonus.c)     |añade el nodo `new` al **final** de la lista `**lst`                                                 |
+|[ft_lstsize](./ft_lstsize_bonus.c)             |cuenta el numero de nodos que hay en la lista `*lst`                                                 |
+|[ft_lstlast](./ft_lstlast_bonus.c)             |retorna el **ultimo nodo** de la lista`*lst`                                                         |
+|[ft_lstdelone](./ft_lstdelone_bonus.c)         |elimina el nodo de una lista y **libera** la memoria asociada a dicho nodo                           |
+|[ft_lstclear](./ft_lstclear_bonus.c)           |elimina **todos** los nodos de una lista y **libera** la memoria asociada a dichos nodos             |
+|[ft_lstiter](./ft_lstiter_bonus.c)             |aplica la función a cada elemento`content` de la lista enlazada`lst`                                 |
+|[ft_lstmap](./ft_lstmap_bonus.c)               |crea una **nueva lista** enlazada aplicando la funcion `f` a cada elemento de la **lista original**  |

@@ -1,4 +1,4 @@
-/*	elimina el nodo de una lista y libera la memoria asociada a dicho nodo */
+/*  elimina el nodo de una lista y libera la memoria asociada a dicho nodo */
 #include "libft.h"
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
