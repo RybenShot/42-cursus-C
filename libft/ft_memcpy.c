@@ -1,4 +1,4 @@
-/* Copia los size primeros valores de src a dest */
+/* Copia los "size" primeros valores de "src" a "dest" */
 #include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t size)
@@ -12,7 +12,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t size)
 	copydest = (char *)dest;
 	if (!dest && !src)
 		return (0);
-	while (size > 0)
+	while (size)
 	{
 		copydest[i] = copysrc[i];
 		i++;

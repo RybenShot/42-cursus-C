@@ -1,4 +1,4 @@
-/* Cambia los size primeros valores de str por nulo */
+/* Cambia los "size" primeros valores de "str" por nulo */
 #include "libft.h"
 
 void	ft_bzero(void *str, size_t size)

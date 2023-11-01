@@ -1,4 +1,4 @@
-/* Copia los size primeros valores de src a dest (hasta si se superponen) */
+/* Copia los "size" primeros valores de "src" a "dest" (hasta si se superponen) */
 #include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t size)
