@@ -1,4 +1,4 @@
-/* Busca la primera coincidencia de la subcadena needle en la cadena haystack */
+/* Busca la primera coincidencia de la subcadena "needle" en la cadena "haystack" hasta los primeros "len" valores */
 #include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)

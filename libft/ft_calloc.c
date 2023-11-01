@@ -1,4 +1,4 @@
-/* Asigna Mermoria Dinamica a una string empezada por valores nulos */
+/* Crea y asiga Memoria dinamica a una nueva variable empezada por valores nulos */
 #include "libft.h"
 
 void	*ft_calloc(size_t num, size_t size)

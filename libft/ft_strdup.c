@@ -1,4 +1,4 @@
-/* Crea y copia en memoria dinamica una nueva string a partir de otra original con un \0 al final */
+/* Duplica en MD la variable "str" con un \0 al final */
 #include "libft.h"
 
 char	*ft_strdup(const char *str)

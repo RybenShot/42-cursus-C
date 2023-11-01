@@ -1,4 +1,4 @@
-/* Crea y copia "len" caracteres en MD una nueva string a partir de "s" empezando por donde diga "start" */
+/* Duplica en MD "len" caracteres de la variable "s" empezando donde diga "start"  */
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
@@ -17,3 +17,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_memcpy(str, s + start, len + 1);
 	return (str);
 }
+

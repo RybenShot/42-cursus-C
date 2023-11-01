@@ -14,5 +14,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 		i++;
 	while (fin > i && ft_strrchr(set, s1[fin]))
 		fin--;
-	return (ft_substr(s1, i, fin - i + 1));
+	return (ft_substr(s1, i, (fin - i) + 1));
 }
