@@ -1,9 +1,9 @@
 /*	cuenta el numero de nodos que hay en la lista *lst */
 #include "libft.h"
 
-int ft_lstsize(t_list *lst)
+int	ft_lstsize(t_list *lst)
 {
-  int	size;
+	int	size;
 
 	size = 0;
 	while (lst)

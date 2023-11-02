@@ -1,4 +1,5 @@
-/* Crea y copia un array de Strings al separar la string "s" en substrings con el caracter "c" como delimitador */
+/* Crea y copia un array de Strings al separar la string "s" 
+en substrings con el caracter "c" como delimitador */
 #include "libft.h"
 
 static size_t	ft_wordcounter(char const *str, char c)
@@ -29,8 +30,8 @@ static size_t	ft_len(char const *s, char c)
 	len = 0;
 	while (*s != '\0' && *s != c)
 	{
-				len++;
-				s++;
+		len++;
+		s++;
 	}
 	return (len);
 }

@@ -1,4 +1,5 @@
-/* Busca la primera coincidencia del byte c en str hasta el tamaño maximo size */
+/* Busca la primera coincidencia del byte c en 
+str hasta el tamaño maximo size */
 #include "libft.h"
 
 void	*ft_memchr(const void *str, int c, size_t size)

@@ -1,4 +1,5 @@
-/* Aplica la función "f" en cada caracter de la cadena "s", OJO! no modifica el original */
+/* Aplica la función "f" en cada caracter de la cadena 
+"s", OJO! no modifica el original */
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))

@@ -1,4 +1,6 @@
-/* Modifica/Elimina la cadena "s1" los caracteres que aparezcan en "set", OJO! empezando de izquierda y de derecha hasta que dejen de haber coincidencias*/
+/* Modifica/Elimina la cadena "s1" los caracteres que aparezcan 
+en "set", OJO! empezando de izquierda y de derecha hasta 
+que dejen de haber coincidencias*/
 #include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)

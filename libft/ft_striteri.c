@@ -1,4 +1,5 @@
-/* Aplica la función "f" en cada caracter de la cadena "s", OJO! esta si modifica el original. */
+/* Aplica la función "f" en cada caracter de la cadena "s", 
+OJO! esta si modifica el original. */
 #include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))

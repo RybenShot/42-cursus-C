@@ -1,4 +1,5 @@
-/* Crea y convierte en Memoria Dinamica un numero entero "n" en una cadena de caracteres */
+/* Crea y convierte en Memoria Dinamica un numero entero 
+"n" en una cadena de caracteres */
 #include "libft.h"
 
 static int	ft_numberlen(long n)
