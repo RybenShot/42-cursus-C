@@ -1,11 +1,9 @@
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <stdio.h>
-#include <stdarg.h>
-
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
+
+#include <unistd.h>     // para usar la funcion write
+#include <stdio.h>      // para usar la funcion printf
+#include <stdarg.h>     // para trabajar con los argumentos
 
 int         ft_printf (char const *str, ...);
 
