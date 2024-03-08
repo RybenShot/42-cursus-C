@@ -1,8 +1,19 @@
-#include "printf.h"
-// Esta funcion solo imprime char, PEEEROOOO puede imprimir numero seguin tabla ASCII
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printChar.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/02/27 17:57:50 by sejimene          #+#    #+#             */
+/*   Updated: 2024/03/08 18:19:28 by sejimene         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int ft_printChar (char letra)
+#include "ft_printf.h"
+
+int	ft_print_char(char letra)
 {
-  write(1, &letra, 1);
-  return 1;
+	write(1, &letra, 1);
+	return (1);
 }

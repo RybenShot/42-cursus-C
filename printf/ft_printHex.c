@@ -1,28 +1,40 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printHex.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sejimene <sejimene@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/02/27 17:58:25 by sejimene          #+#    #+#             */
+/*   Updated: 2024/03/08 20:00:39 by sejimene         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
-int    ft_printHex(unsigned long numero, char format)
+int	ft_print_hex(unsigned long numero, char format)
 {
-  int counter;
-  char hexadecimales[16];
-  char hexadecimalesMay[16];
+	int		counter;
+	char	*hexadecimales;
 
-  counter = 0;
-  hexadecimales[] = "0123456789abcdef";
-  hexadecimalesMay[] = "0123456789ABCDEF";
-  
-  if (numero == 0 || numero == NULL)
-    return (ft_printChar('0'));  
-  else if (numero >= 16)
-  {
-    counter += ft_printHex(numero / 16, format);
-    counter += ft_printHex(numero % 16, format);
-  }
-  else
-  {
-    if (format == 'X')
-        counter += ft_printChar(hexadecimalesMay[numero]);
-    else                                                          // llegara aqui cuando sea 'x'(minus) y 'p'(punteros)
-        counter += ft_printChar(hexadecimales[numero]);
-  }
-  return (counter);
+	hexadecimales = "0123456789abcdef";
+	counter = 0;
+	if (numero == 0)
+		return (ft_print_char('0'));
+	else if (numero >= 16)
+	{
+		counter += ft_print_hex(numero / 16, format);
+		counter += ft_print_hex(numero % 16, format);
+	}
+	else
+	{
+		if (format == 'X')
+		{
+			hexadecimales = "0123456789ABCDEF";
+			counter += ft_print_char(hexadecimales[numero]);
+		}
+		else
+			counter += ft_print_char(hexadecimales[numero]);
+	}
+	return (counter);
 }
