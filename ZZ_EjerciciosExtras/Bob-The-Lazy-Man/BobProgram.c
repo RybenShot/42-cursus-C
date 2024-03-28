@@ -1,37 +1,30 @@
 #include <stdio.h>
 
+int counterTotal(int min, int max, int num){
+  return (min + max + num);
+}
+
 int main() {
   char *letter = "hol-a c!Ar=aKol4a";
-  int counter = 0;
   int counterMin = 0;
   int counterMay = 0;
   int counterNum = 0;
   
   while(*letter)
   {
-    if(*letter >= 'a' && *letter <= 'z'){
-      counter++;
+    if(*letter >= 'a' && *letter <= 'z')
       counterMin++;
-      letter++;
-    }
-    else if(*letter >= 'A' && *letter <= 'Z'){
-      counter++;
+    else if(*letter >= 'A' && *letter <= 'Z')
       counterMay++;
-      letter++;
-    }
-    else if(*letter >= '0' && *letter <= '9'){
-      counter++;
+    else if(*letter >= '0' && *letter <= '9')
       counterNum++;
-      letter++;
-    }
-    else{
-      letter++;
-    }
+    letter++;
   }
   
-  printf("La letra tiene en total : %d \n", counter);
+  printf("La letra tiene en total : %d \n", counterTotal(counterMin, counterMay, counterNum));
   printf("La letra tiene %d letras minusculas \n", counterMin);
   printf("La letra tiene %d letras Mayusculas \n", counterMay);
   printf("La letra tiene %d letras numericos \n", counterNum);
+  
   return 0;
 }
