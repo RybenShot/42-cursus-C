@@ -1,9 +1,9 @@
-## Bob it's a LAzy Man
+# Bob it's a LAzy Man
 Bob es un hombre perezoso cuyo único trabajo es contar cuántas letras y números hay en una cadena de texto. 
 Como Bob prefiere echarse una siesta en lugar de trabajar, necesita que le proporcionemos un método automatizado para realizar esta tarea por él. 
 Además, como bonificación, desea que el programa también le proporcione el conteo de letras minúsculas, letras mayúsculas y números en la palabra dada.
 
-# Ejemplo:
+## Ejemplo:
 Cadena de texto: "hel2!lo"
   Total de caracteres: 6
   Letras minúsculas: 4
