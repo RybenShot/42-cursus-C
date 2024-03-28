@@ -67,7 +67,7 @@ int compraDelProducto(struct Producto *listaDeProductos, int productoSeleccionad
     // comprobador de suficiente dinero
     if(listaDeProductos[productoSeleccionado].precio > dineroDelCliente){
         int diferencia = listaDeProductos[productoSeleccionado].precio - dineroDelCliente;
-        printf("Dinero insuficiente, te quedan %d E \n", diferencia);
+        printf("Dinero insuficiente, te quedan %d€ \n", diferencia);
     }
     // gestion del producto
     else{
