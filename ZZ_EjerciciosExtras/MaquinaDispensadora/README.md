@@ -45,7 +45,9 @@ int main() {
 
 ## Pistas
 <div align="center">
-  <h1><strong>Alto ahi granuja!</strong></h1>
+  <h1 style="border-bottom: none;"><img src="https://emojicdn.elk.sh/🚨" style="width: 40px">Alto ahí, granuja!!<img src="https://emojicdn.elk.sh/🚨" style="width: 40px"></h1>
+  <h2>Antes de continuar, dale otra vuelta al codigo.</h2>
+  <p>Pero si vez que enteramente no puedes continuar, sigue adelante.</p>
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDl6bHlnYXZycGdtNnd0NnZwY3A3eWM3amZqaWpjZHhhNXJ5N3dneCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCpYQh5YVhdI1rVYpE/giphy.gif">
 </div>
 
