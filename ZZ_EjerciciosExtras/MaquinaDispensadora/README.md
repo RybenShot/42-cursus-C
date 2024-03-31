@@ -1,6 +1,6 @@
 <p align = "center">
   <a href= "#funcionalidades">Funcionalidades</a> |
-  <a href= "#pimeros pasitos">Primeros Pasos</a> |
+  <a href= "#pimeros-pasitos">Primeros Pasos</a> |
   <a href= "#pistas">Pistas</a>
 </p>
 
@@ -44,6 +44,14 @@ int main() {
 ~~~
 
 ## Pistas
+<div align="center">
+  <h1><strong>Alto ahi granuja!</strong></h1>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDl6bHlnYXZycGdtNnd0NnZwY3A3eWM3amZqaWpjZHhhNXJ5N3dneCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCpYQh5YVhdI1rVYpE/giphy.gif">
+</div>
+
+<br/><br/><br/>
+
+
 1. Como diria Jack el destripador "Vamos por partes"
 2. Para crear los productos se usan las estructuras
 3. Primero deberia buscar el producto (si este existe ...) comprobaremos el stock (si hay stock ...) y asi hasta que el cliente consiga su producto y su cambio de vuelta
