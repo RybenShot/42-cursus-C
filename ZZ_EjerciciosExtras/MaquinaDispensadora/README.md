@@ -4,7 +4,11 @@
   <a href= "#pistas">Pistas</a>
 </p>
 
-# Vending Machine Program
+<div align="center">
+  <img src="https://media.tenor.com/EVCicq5T6_UAAAAM/vending-machine-loop.gif">
+</div>
+
+# Reto - Maquina Expendedora
 
 Este programa simula el funcionamiento básico de una máquina expendedora de productos utilizando el lenguaje de programación C.
 
@@ -47,7 +51,7 @@ int main() {
 <div align="center">
   <h1 style="border-bottom: none;"><img src="https://emojicdn.elk.sh/🚨" style="width: 40px">Alto ahí, granuja!!<img src="https://emojicdn.elk.sh/🚨" style="width: 40px"></h1>
   <h2>Antes de continuar, dale otra vuelta al codigo.</h2>
-  <p>Pero si vez que enteramente no puedes continuar, sigue adelante.</p>
+  <p>Pero si te ves incapaz de continuar, sigue adelante.</p>
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDl6bHlnYXZycGdtNnd0NnZwY3A3eWM3amZqaWpjZHhhNXJ5N3dneCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCpYQh5YVhdI1rVYpE/giphy.gif">
 </div>
 
