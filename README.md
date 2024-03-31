@@ -16,4 +16,4 @@
   - get_next_line. Enseñar cómo leer desde un descriptor de archivo y usar variables estáticas.
 
 # 💜 Retos de codigo 💜
-  Lista de retos de codigo para la coalicion Void -> [**Lista de retos**](./ZZ_EjerciciosExtras)
+  Lista de retos de codigo para la coalicion Void -> [**Lista de retos**](./ZZ_RetosDeCodigo)
