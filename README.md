@@ -5,8 +5,11 @@
 |  Función | Descripción |
 | -------- | ----------- |
 |[**libft**](./libft) | Creacion de funciones basicas de C para entender desde lo mas abajo como funcionan los programas|
+|[**printf**](./) | (proximamente subo el codigo) Recrear la conocida función de biblioteca de C, printf()|
 
 # ⌛ Futuros proyectos
   - Born2Beroot. Creacion de una maquina virtual
-  - ft_printf. Recrear la conocida función de biblioteca de C, printf()
   - get_next_line. Enseñar cómo leer desde un descriptor de archivo y usar variables estáticas.
+
+# 💜 Retos de codigo
+  Lista de retos de codigo para la coalicion Void -> [**Lista de retos**](./ZZ_EjerciciosExtras)

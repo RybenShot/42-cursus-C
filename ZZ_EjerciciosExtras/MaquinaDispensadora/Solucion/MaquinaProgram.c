@@ -80,7 +80,6 @@ int compraDelProducto(struct Producto *listaDeProductos, int productoSeleccionad
 }
 
 int main() {
-    int peticiones = 999;
     int seleccion;
     int cambio = 30;
     int dineroInsertado;
@@ -105,7 +104,7 @@ int main() {
     //mostrarProductoConcreto(productos, seleccion, cantidadProductos);
 
     // COMPRAR UN PRODUCTO
-    while(peticiones++ > 0){
+    while(1){
         printf("> Que producto quieres? ");
         scanf("%d", &seleccion);
 
