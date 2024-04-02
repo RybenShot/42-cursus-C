@@ -1,7 +1,7 @@
 <p align = "center">
   <a href= "#funcionalidades">Funcionalidades</a> |
   <a href= "#pimeros-pasitos">Primeros Pasos</a> |
-  <a href= "#pistas">Pistas</a>
+  <a href= "#pistas">Pistas</a> |
   <a href= "#ejecucion">Ejecucion</a>
 </p>
 
