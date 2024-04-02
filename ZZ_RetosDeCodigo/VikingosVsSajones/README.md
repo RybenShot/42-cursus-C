@@ -1,18 +1,17 @@
 <p align="center">
   <a href="#descripcion">Descripción</a> |
   <a href="#funcionalidades">Funcionalidades</a> |
-  <a href="#pistas">Pistas</a> |
-  <a href="#ejecucion">Ejecución</a>
+  <a href="#pistas">Pistas</a>
 </p>
 
 <div align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2Z1c3lzeW1ueHJqcXlxd2VlZjE2dnZmbHAxM242ZHJoaGsxM3V6OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3W0vjXgLj4rg4/giphy.gif">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2Z1c3lzeW1ueHJqcXlxd2VlZjE2dnZmbHAxM242ZHJoaGsxM3V6OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3W0vjXgLj4rg4/giphy.gif" style="width: 400px">
 </div>
 
 # Vikingos Contra Sajones ⚔️
 Desarrolla un programa que simule batallas entre vikingos y sajones. Cada combatiente, ya sea vikingo o sajón, tiene un nombre, una cantidad de vida y una fuerza. El programa debe permitir enfrentar a dos ejércitos entre sí y determinar cuál es el ganador.
 
-## Descripción
+## Descripcion
 El programa deberá simular batallas entre vikingos y sajones, tomando en cuenta sus respectivas fuerzas y vidas. Deberá permitir crear ejércitos con un número determinado de soldados y enfrentarlos en batallas.
 
 ## Funcionalidades
@@ -26,7 +25,7 @@ El programa deberá simular batallas entre vikingos y sajones, tomando en cuenta
   <h1 style="border-bottom: none;"><img src="https://emojicdn.elk.sh/🚨" style="width: 40px">Quieto parao!<img src="https://emojicdn.elk.sh/🚨" style="width: 40px"></h1>
   <h2>Antes de continuar, dale otra vuelta al codigo.</h2>
   <p>Pero si te ves incapaz de continuar, sigue adelante.</p>
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHdodWx1ZXN1ZHUzODZhNmEwNWsyeDlvamw3MmEwZzZzaTl4bWxtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BwvJsVbOIwe8o/giphy.gif">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHdodWx1ZXN1ZHUzODZhNmEwNWsyeDlvamw3MmEwZzZzaTl4bWxtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BwvJsVbOIwe8o/giphy.gif" style="width: 600px">
 </div>
 
 <br/><br/><br/>
