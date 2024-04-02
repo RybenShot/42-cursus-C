@@ -3,6 +3,10 @@
   <a href= "#pistas">Pistas</a>
 </p>
 
+<div align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2pqMHJ5eWM0NTd5MDg1MWNwdjV6MWFwZnAybW1wY2tyanhtZzE1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orif6BxZbeqOgmyRi/giphy.gif">
+</div>
+
 # Reto - Tallas para todos 👕
 
 Tu tarea es crear un programa que determine la talla de ropa más adecuada para un usuario basándose en ciertas medidas físicas proporcionadas. 
