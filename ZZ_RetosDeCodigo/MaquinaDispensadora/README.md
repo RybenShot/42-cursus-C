@@ -8,23 +8,19 @@
   <img src="https://media.tenor.com/EVCicq5T6_UAAAAM/vending-machine-loop.gif">
 </div>
 
-# Reto - Maquina Expendedora
-
+# Reto - Maquina Expendedora 🛒
 Este programa simula el funcionamiento básico de una máquina expendedora de productos utilizando el lenguaje de programación C.
 
 ## Descripción
-
 El programa permite al usuario seleccionar un producto de una lista predefinida, verificar si hay suficiente stock disponible, insertar dinero y recibir el cambio correspondiente después de realizar la compra.
 
 ## Funcionalidades
-
 - **Mostrar Productos**: Muestra todos los productos disponibles en la máquina.
 - **Buscar Producto**: Busca un producto específico por su ID y muestra su información si está disponible.
 - **Verificar Stock**: Verifica si hay suficiente stock disponible para el producto seleccionado.
 - **Comprar Producto**: Permite al usuario comprar un producto e insertar dinero para pagar.
 
 ## Estructura del Código
-
 El código está estructurado de la siguiente manera:
 
 - Definición de una estructura `Producto` que contiene información sobre cada producto, incluyendo ID, nombre, precio y stock.
