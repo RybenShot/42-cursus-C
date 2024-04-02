@@ -2,6 +2,7 @@
   <a href= "#funcionalidades">Funcionalidades</a> |
   <a href= "#pimeros-pasitos">Primeros Pasos</a> |
   <a href= "#pistas">Pistas</a>
+  <a href= "#ejecucion">Ejecucion</a>
 </p>
 
 <div align="center">
@@ -90,11 +91,20 @@ int stockDeProducto(struct Producto *listaDeProductos, int productoSeleccionado)
 }
 ~~~
 
-## Ejecución
+## Ejecucion
 
-Para compilar y ejecutar el programa en un entorno de desarrollo de C:
+Para compilar y ejecutar el programa (mi solucion) en un entorno de desarrollo de C:
+Esto ejecutara en consola el programa y podras interactuar.
+1. Te enseña todos los productos que hay con su nombre e ID.
+2. Eliges el producto que deseas (comprobara si existe el producto y si hay stock).
+3. Te pedira el dinero (escribes el dinero exacto o incluso mas, como si pagaras con un billete en al realidad).
+4. Te da el refresco seleccionado y el cambio (si has metido el dinero correctamente).
 
 ~~~
 gcc MaquinaProgram.c -o MaquinaExpendedora
 ./MaquinaExpendedora
 ~~~
+
+# No tienes entorno de C en tu sistema?. 
+No te preocupes puedes usar este [entorno Online](https://www.onlinegdb.com/online_c_compiler)
+Solo tienes que copiar todo el codigo , pegarlo y darle al boton verde 'Run' .
