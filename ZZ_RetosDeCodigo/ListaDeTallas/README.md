@@ -3,7 +3,7 @@
   <a href= "#pistas">Pistas</a>
 </p>
 
-# Reto - Tallas para todos 👕!
+# Reto - Tallas para todos 👕
 
 Tu tarea es crear un programa que determine la talla de ropa más adecuada para un usuario basándose en ciertas medidas físicas proporcionadas. 
 
@@ -27,9 +27,9 @@ El programa debe proporcionar una salida clara indicando la talla recomendada pa
 ## Pistas
 <div align="center">
   <h1 style="border-bottom: none;"><img src="https://emojicdn.elk.sh/🚨" style="width: 40px">Alto ahí, granuja!!<img src="https://emojicdn.elk.sh/🚨" style="width: 40px"></h1>
-  <h2>Antes de continuar, dale otra vuelta al codigo <p><small>(que tal si empeciezas por hacer S M y L?)</small>.</p></h2>
+  <h2>Antes de continuar, dale otra vuelta al codigo. <p><em>(que tal si empeciezas por hacer S M y L?)</em></p></h2>
   <p>Pero si te ves incapaz de continuar, sigue adelante.</p>
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGFpODAyNTZydHJmM2toOGt1ZGlsb3N4aGdrZmU2Nml6ZDdrNTJjbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8TweEdaxxfuElKkRxz/giphy.gif">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHhxZjZndGo4cThqZmFuNzRvdWJ3c2lydXEwNDd6eXBmbjZmMGJ5bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U57D8xBvTi599FwaAb/giphy.gif">
 </div>
 
 <br/><br/><br/>
