@@ -62,7 +62,7 @@ int main() {
 <details><summary><b>Pista 3</b></summary><p>Primero deberia buscar el producto (si este existe ...) comprobaremos el stock (si hay stock ...) y asi hasta que el cliente consiga su producto y su cambio de vuelta</p></details>
 
 <details><summary><b>Pista 4</b></summary><p>Aqui te dejo un trocito de la solucion ...
-~~~
+<code>
 // busca 1 producto, si lo encuentra lo devuelve
 int buscarProducto(struct Producto *listaDeProductos, int productoSeleccionado, int totalProductos){
     int i = 0;
@@ -77,11 +77,11 @@ int buscarProducto(struct Producto *listaDeProductos, int productoSeleccionado, 
     printf("Producto no encontrado");
     return -1;
 }
-~~~
+</code>
 </p></details>
 
 <details><summary><b>Pista 5</b></summary><p>Otro trocito de codigo (y el ultimo)
-~~~
+<code>
 // comprobamos si hay stock del producto que estamos mirando
 int stockDeProducto(struct Producto *listaDeProductos, int productoSeleccionado){
     if(listaDeProductos[productoSeleccionado].stock <= 0){
@@ -93,7 +93,7 @@ int stockDeProducto(struct Producto *listaDeProductos, int productoSeleccionado)
         return (listaDeProductos[productoSeleccionado].stock);
     }
 }
-~~~
+</code>
 </p></details>
 
 ## Ejecucion
