@@ -55,11 +55,13 @@ int main() {
 <br/><br/><br/>
 
 
-1. Como diria Jack el destripador "Vamos por partes"
-2. Para crear los productos se usan las estructuras
-3. Primero deberia buscar el producto (si este existe ...) comprobaremos el stock (si hay stock ...) y asi hasta que el cliente consiga su producto y su cambio de vuelta
-4. Aqui te dejo un trocito de la solucion ...
-  
+<details><summary><b>Pista 1</b></summary><p>Como diria Jack el destripador "Vamos por partes"</p></details>
+
+<details><summary><b>Pista 2</b></summary><p>Para crear los productos se usan las estructuras</p></details>
+
+<details><summary><b>Pista 3</b></summary><p>Primero deberia buscar el producto (si este existe ...) comprobaremos el stock (si hay stock ...) y asi hasta que el cliente consiga su producto y su cambio de vuelta</p></details>
+
+<details><summary><b>Pista 4</b></summary><p>Aqui te dejo un trocito de la solucion ...
 ~~~
 // busca 1 producto, si lo encuentra lo devuelve
 int buscarProducto(struct Producto *listaDeProductos, int productoSeleccionado, int totalProductos){
@@ -76,7 +78,9 @@ int buscarProducto(struct Producto *listaDeProductos, int productoSeleccionado, 
     return -1;
 }
 ~~~
-5. Otro trocito de codigo (y el ultimo)
+</p></details>
+
+<details><summary><b>Pista 5</b></summary><p>Otro trocito de codigo (y el ultimo)
 ~~~
 // comprobamos si hay stock del producto que estamos mirando
 int stockDeProducto(struct Producto *listaDeProductos, int productoSeleccionado){
@@ -90,6 +94,7 @@ int stockDeProducto(struct Producto *listaDeProductos, int productoSeleccionado)
     }
 }
 ~~~
+</p></details>
 
 ## Ejecucion
 
