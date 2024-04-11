@@ -1,13 +1,13 @@
 <p align = "center">
-  <a href= "#👕-tabla-de-tallas-👕">Tabla de tallas</a> |
+  <a href= "#"></a> |
   <a href= "#pistas">Pistas</a>
 </p>
 
 <div align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2pqMHJ5eWM0NTd5MDg1MWNwdjV6MWFwZnAybW1wY2tyanhtZzE1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orif6BxZbeqOgmyRi/giphy.gif">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3N1bTR4OHRrc2lhczFsc2V1enk5ZHNqNjd2ODVrNW5rejR2bDNweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B4dt6rXq6nABilHTYM/giphy.gif">
 </div>
 
-# Reto - Tallas para todos 👕
+# Reto - Trolling the troll 👕
 
 Tu tarea es crear un programa que determine la talla de ropa más adecuada para un usuario basándose en ciertas medidas físicas proporcionadas. 
 
@@ -38,12 +38,8 @@ El programa debe proporcionar una salida clara indicando la talla recomendada pa
 
 <br/><br/><br/>
 
-<details><summary><b>Pista 1</b></summary><p>Empieza por hacer las tallas S M y L, te van a ser las mas faciles de hacer</p></details>
-
-<details><summary><b>Pista 2</b></summary><p>Lo dificil no es gestioar los valores y asignar la talla, lo realmente dificil es meter 2 caracteres en una variable que solo acepta 1.</p></details>
-
-<details><summary><b>Pista 3</b></summary><p>Ten en cuenta que no pesa lo mismo esto -> 'S', que esto -> "XS" . Por increible que aprezca XS pesa mas.</p></details>
-
-<details><summary><b>Pista 4</b></summary><p>Seguro que casi lo tienes. Dale una velta mas!</p></details>
-
-<details><summary><b>Pista 5</b></summary><p>Para poder guardar en una variable 'char' un conjunto de letras (como por ejemplo XS o XL o XXL) hay que guardarlas en un conjunto de caracteres como es un string. que tal si usas el strcpy()?</p></details>
+1. Empieza por hacer las tallas S M y L, te van a ser las mas faciles de hacer
+2. Lo dificil no es gestioar los valores y asignar la talla, lo realmente dificil es meter 2 caracteres en una variable que solo acepta 1.
+3. Ten en cuenta que no pesa lo mismo esto -> 'S', que esto -> "XS" . Por increible que aprezca XS pesa mas.
+4. Seguro que casi lo tienes. Dale una velta mas!
+5. Para poder guardar en una variable 'char' un conjunto de letras (como por ejemplo XS o XL o XXL) hay que guardarlas en un conjunto de caracteres como es un string. que tal si usas el strcpy()?
