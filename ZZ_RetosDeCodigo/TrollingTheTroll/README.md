@@ -1,5 +1,5 @@
 <p align = "center">
-  <a href= "#"></a> |
+  <a href= "#bonus">Bonus</a> |
   <a href= "#pistas">Pistas</a>
 </p>
 
@@ -7,39 +7,45 @@
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3N1bTR4OHRrc2lhczFsc2V1enk5ZHNqNjd2ODVrNW5rejR2bDNweCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B4dt6rXq6nABilHTYM/giphy.gif">
 </div>
 
-# Reto - Trolling the troll 👕
+# Reto - Trolling the troll 👨‍💻 
 
-Tu tarea es crear un programa que determine la talla de ropa más adecuada para un usuario basándose en ciertas medidas físicas proporcionadas. 
+Tu tarea es escribir una función que tome una cadena de texto y devuelva una nueva cadena con todas las vocales cambiadas por una única vocal.
 
-## Descripcion
-El programa debe aceptar las medidas de hombro, altura, cintura y pecho, y determinar la talla de la prenda de vestir correspondiente.
+Por ejemplo:
+~~~
+Input: "Este sitio web es para perdedores"
+Output: "isti sitii wib is piri pirdidiris"
+~~~
 
-El programa debe proporcionar una salida clara indicando la talla recomendada para el usuario. Por ejemplo, podría mostrar un mensaje como "Su talla es M" o "Le recomendamos la talla L".
+## Bonus
+La función solo actúa cuando se detecta una palabra dentro de un diccionario de palabras prohibidas.
+~~~
+Palabras prohibidas: ["idiota", "perdedores", "caca", "culo", "pis"]
 
-¡Buena suerte!
+Input: "Este sitio web es para perdedores"
+Output: "Este sitio web es para pirdidiris"
 
-## 👕 Tabla de tallas 👕
-|  Talla | Cintura (cm) | Pecho (cm) | Longitud (cm) |
-| ------ | ------------ | ---------- | ------------- |
-| XS  | 71 - 80   | 81 - 90   | 60 - 65  |
-| S   | 81 - 90   | 91 - 100  | 66 - 70  |
-| M   | 91 - 100  | 101 - 110 | 71 - 75  |
-| L   | 101 - 110 | 111 - 120 | 76 - 80  |
-| XL  | 111 - 120 | 121 - 130 | 81 - 85  |
-| XXL | 121 - 130 | 131 - 140 | 86 - 90  |
+Input: "Este sitio web es impresionante"
+Output: "Este sitio web es impresionante"
+~~~
+
 
 ## Pistas
 <div align="center">
   <h1 style="border-bottom: none;"><img src="https://emojicdn.elk.sh/🚨" style="width: 40px">Alto ahí, granuja!!<img src="https://emojicdn.elk.sh/🚨" style="width: 40px"></h1>
-  <h2>Antes de continuar, dale otra vuelta al codigo. <p><em>(que tal si empeciezas por hacer S M y L?)</em></p></h2>
+  <h2>Antes de continuar, dale otra vuelta al codigo.</h2>
   <p>Pero si te ves incapaz de continuar, sigue adelante.</p>
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHhxZjZndGo4cThqZmFuNzRvdWJ3c2lydXEwNDd6eXBmbjZmMGJ5bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U57D8xBvTi599FwaAb/giphy.gif">
 </div>
 
 <br/><br/><br/>
 
-1. Empieza por hacer las tallas S M y L, te van a ser las mas faciles de hacer
-2. Lo dificil no es gestioar los valores y asignar la talla, lo realmente dificil es meter 2 caracteres en una variable que solo acepta 1.
-3. Ten en cuenta que no pesa lo mismo esto -> 'S', que esto -> "XS" . Por increible que aprezca XS pesa mas.
-4. Seguro que casi lo tienes. Dale una velta mas!
-5. Para poder guardar en una variable 'char' un conjunto de letras (como por ejemplo XS o XL o XXL) hay que guardarlas en un conjunto de caracteres como es un string. que tal si usas el strcpy()?
+<details><summary><b>Pista 1</b></summary><p>BlaBlaBla</p></details>
+
+<details><summary><b>Pista 2</b></summary><p>BlaBlaBla</p></details>
+
+<details><summary><b>Pista 3</b></summary><p>BlaBlaBla</p></details>
+
+<details><summary><b>Pista 4</b></summary><p>BlaBlaBla</p></details>
+
+<details><summary><b>Pista 5</b></summary><p>BlaBlaBla</p></details>
